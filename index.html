@@ -1,172 +1,419 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/styles.css">
-    <title>A Hudson Valley Web Developer</title>
-</head>
-<body>
-    
-    <header>
+<html lang="en-US">
+	<head>
 
-        <hr class="hr">
-
-        <h3 class="brandName">A Hudson Valley Web Developer</h3>
-
-        <hr class="hr">
-
-    </header>
-    
-
-
-
-
-    <section class="mainContainer">
-
-        <main> 
-
-            <section class="messageContainer">
-            
-            <h2 class="marketingMessage">
-                
-                Coming 
-            
-            </h2>
-    
-            </section>
-    
-
-    
-    
-            <!-- count down timer -->
-           
-            <!--
-            <section class="countdownContainer">
-    
-            <section class="countdown">
-                
-    
-                <section class="container-day">
-                    
-                    <h3 class="day">Time</h3>
-                    
-                    <h3 class="label">Days</h3>
-                
-                </section>
-    
-    
-    
-                <section class="colon">
-                    <h3>:</h3>
-                </section>
-    
-    
-    
-                <section class="container-hour">
-                    
-                    <h3 class="hour">Time</h3>
-                    
-                    <h3 class="label">Hours</h3>
-                
-                </section>
-    
-    
-    
-                <section class="colon">
-                    <h3>:</h3>
-                </section>
-    
-    
-    
-                <section class="container-minute">
-                    
-                    <h3 class="minute">Time</h3>
-                    
-                    <h3 class="label">Minutes</h3>
-                
-                </section>
-    
-    
-    
-                <section class="colon">
-                    <h3>:</h3>
-                </section>
-    
-    
-    
-                <section class="container-second">
-                    
-                    <h3 class="second">Time</h3>
-                    
-                    <h3 class="label">Seconds</h3>
-                
-                </section>
-            
-    
-            </section>
-    
-            </section>
-            
-            -->
-    
-    
-
-            <section class="messageContainer">
-            
-                <h2 class="marketingMessage">
-                    
-                    Soon! 
-                
-                </h2>
-        
-                </section>
-    
-        <!--
-    
-            *** Optional elements - Omitted ***
-    
-            <form action="">
-    
-                <button>
-                    
-                    <h2 class="cta">
-                        
-                        Get Notification
-                    
-                    </h2>
-                
-                </button>
-    
-            </form>
-            
-        -->
-    
-        </main>
-
-    </section>
-    
-    
-
-
-
-
-    <!-- Import the js file -->
-
-    <script src="./script/index.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
 
 
 
-    <footer>
+		<title>Tyisiah Santiago | Web Developer</title>
 
-        <h4>
-            Need A Website?
-        </h4>
-        
-        <a href="mailto:tyisiahsantiago12@gmail.com"><h4>Tyisiahsantiago12@gmail.com</h4></a>
-    </footer>
-</body>
+		<meta name="description" content="Tyisah Santiago's web developer portfolio.">
+		<meta name="keywords" content="website developer, webapp developer, web application developer, full stack web application developer, software engineer, software developer, developer, programmer, tyisiah, tyisiah santiago, tyisiah santiago's portfolio">
+
+
+		<!-- /// external CSS links /// -->
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- /// javascript  /// -->
+
+		<script src="/js/jquery-3.6.0.js"></script>
+    
+		<script>
+
+        	$(function(){
+            	$(".toggle").on("click", function(){
+					if($(".item").hasClass("active")){	
+						$(".item").removeClass("active");
+                	}
+					else{
+                        	$(".item").addClass("active");
+                	}
+            	})
+        	});
+
+    	</script>
+
+	</head>
+	<body>
+
+		<header>
+
+			<img src="/images/TS teal.png" alt="Tyisiah Santiago" class="logo">
+
+		<!-- // The naviagtion menu // -->
+
+			<nav aria-label="Primary navigation">
+
+				<ul class="menu">
+
+					<li class="item"><a href="/index.html" aria-current="page">Home</a></li>
+					
+					<li class="item"><a href="#about">About</a></li>
+					
+					<li class="item"><a href="#skills">Skills</a></li>
+					
+					<li class="item"><a href="#projects">Projects</a></li>
+					
+					<li class="item"><a href="#contact">Contact</a></li>
+
+					<li class="toggle"><span class="bars"></span></li>
+				
+				</ul>
+			
+			</nav>
+		
+		</header>
+
+		<main>
+
+
+			<!-- // The Landing // -->
+
+			<section class="landing">
+		
+				<section class="landingHook">
+				
+
+					<h1>Hi, I'm Tyisiah Santiago</h1>
+				
+					<p class="role">
+						A Hudson Valley Full-Stack Web Developer
+					</p>
+				
+					<section class="buttonContainer">
+					
+						<a href="#contact" class="cta">Get in touch</a>
+				
+					</section>
+
+
+				</section>
+
+			</section>
+
+
+
+
+
+
+		<!-- // All About Me // -->
+
+			<section class="about" id="about">
+
+				<section class="aboutContainer">
+
+					<h2>About</h2>
+		
+					<section class="aboutSubContainer">
+
+						<img src="/images/headshot1.png" alt="A portrait of me" class="portrait">
+
+						<section class="containerContainer">
+
+								<p class="aboutMe one">
+									Hello, I'm Tyisiah Santiago and I'm a Full-Stack Web Application Developer local to the Hudson Valley.
+								</p>
+
+								<p class="aboutMe two">
+									I have a passion for creating responsive, accessibly-rich web applications with a straightforward user experience
+								</p>
+
+								<section class="buttonsContainer">
+
+									<a href="resume.html" class="resumeButton">Resumé</a>
+
+									<a href="#contact" class="contactMe">Contact Me</a>
+
+								</section>
+
+						</section>
+
+					</section>
+
+				</section>
+
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // My Skills // -->
+
+
+		<section class="skills" id="skills">
+
+			<section class="skillsContainer">
+
+
+
+
+				<h2 class="skillsTitle">Skills</h2>
+
+				<section class="skillsListsContainer">
+
+
+
+
+
+
+					<section class="technicalSkills">
+
+						<h3 class="technicalHeader">Technical Skills</h3>
+
+						<ul class="technicalList">
+
+							<li class="listItem">HTML5</li>
+							<li class="listItem">CSS3</li>
+							<li class="listItem">Javascript</li>
+							<li class="listItem">PHP</li>
+							<li class="listItem">MySQL</li>
+							<li class="listItem">VPS Configuration</li>
+							<li class="listItem">Agile Development</li>
+							<li class="listItem">Version Control</li>
+
+						</ul>
+
+					</section>
+
+
+
+
+
+
+					<section class="otherSkills">
+
+						<h3 class="otherHeader">Other Skills</h3>
+
+						<ul class="otherList">
+
+							<li class="listItem">Photography</li>
+							<li class="listItem">Videography</li>
+							<li class="listItem">Graphic Design</li>
+							<li class="listItem">UI Design</li>
+							<li class="listItem">UX Design</li>
+							<li class="listItem">Problem Solving</li>
+							<li class="listItem">Learning Quickly</li>
+							<li class="placeHolder">Place Holder</li>
+
+						</ul>
+
+					</section>
+
+
+
+
+
+
+
+					<section class="tools">
+
+						<h3 class="toolsHeader">Tools</h3>
+
+						<ul class="toolsList">
+
+							<li class="">GitHub</li>
+							<li class="">VS Code</li>
+							<li class="">Virtual Box</li>
+							<li class="">Adobe Creative Suite</li>
+							<li class="">Google Suite</li>
+							<li class="">Microsoft Office Suite</li>
+							<li class="placeHolder">Place Holder</li>
+							<li class="placeHolder">Place Holder</li>
+
+						</ul>
+
+					</section>
+
+
+
+
+
+
+				</section>
+
+
+
+
+			</section>
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- // My Projects // -->
+
+
+		<section class="projects" id="projects">
+
+			<section class="skillsContainer">
+
+
+
+				<h2 class="projectsTitle">Projects</h2>
+
+				<!-- <h2 class="skillsTitle">Skills</h2> -->
+
+				<section class="skillsListsContainer">
+
+
+
+
+
+
+					<section class="projectOne">
+
+						<h3 class="technicalHeader projectOneHeader">Technical Skills</h3>
+
+						<ul class="technicalList">
+
+							<li class="listItem">HTML5</li>
+							<li class="listItem">CSS3</li>
+							<li class="listItem">Javascript</li>
+							<li class="listItem">PHP</li>
+							<li class="listItem">MySQL</li>
+							<li class="listItem">VPS Configuration</li>
+							<li class="listItem">Agile Development</li>
+							<li class="listItem">Version Control</li>
+
+						</ul>
+
+					</section>
+
+
+
+
+
+
+					<section class="projectTwo">
+
+						<h3 class="otherHeader projectTwoHeader">Other Skills</h3>
+
+						<ul class="otherList">
+
+							<li class="listItem">Photography</li>
+							<li class="listItem">Videography</li>
+							<li class="listItem">Graphic Design</li>
+							<li class="listItem">UI Design</li>
+							<li class="listItem">UX Design</li>
+							<li class="listItem">Problem Solving</li>
+							<li class="listItem">Learning Quickly</li>
+							<li class="placeHolder">Place Holder</li>
+
+						</ul>
+
+					</section>
+
+
+
+
+
+
+
+					<section class="projectThree">
+
+						<h3 class="toolsHeader projectThreeHeader">ANOMALY</h3>
+
+						<p class="projectDescription">A Parallax project for fun!</p>
+
+						<a href="github.com/" class="codeButton">&lt;/&gt;</a>
+
+					</section>
+
+
+
+
+
+
+				</section>
+
+
+
+
+			</section>
+
+		</section>
+
+
+
+
+<!-- // The Contact form // -->
+
+
+		<section class="contact" id="contact">
+
+			<h2>Contact</h2>
+
+			<form action="POST">
+
+				<label for="firstName">First Name:</label>
+
+				<input type="text" class="firstName" aria-required="true">
+
+				<label for="lastName">Last Name:</label>
+
+				<input type="text" class="lastName" aria-required="true">
+
+				<label for="email">Email:</label>
+
+				<input type="text" class="email" aria-required="false">
+
+				<label for="phone">Phone:</label>
+
+				<input type="tel" class="phone" aria-required="true">
+
+				<label for="message">Your Message:</label>
+
+				<input type="text" class="message" aria-required="true">
+
+				<input type="submit">
+
+			</form>
+
+			<h3>My info:</h3>
+
+			<h4>Phone:</h4>
+
+			<h5>(845) 763-3359</h5>
+
+			<h4>Email:</h4>
+
+			<h5>Tyisiahsantiago12@gmail.com</h5>
+
+		</section>
+
+		</main>
+
+
+		<footer>
+			<h2>
+				Footer!
+			</h2>
+		</footer>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
 </html>
