@@ -586,13 +586,6 @@ img.portrait {
   background-color: #006565;
 } */
 
-footer{
-  visibility: hidden;
-}
-
-.contact{
-  visibility: hidden;
-}
 
 
 
@@ -601,12 +594,6 @@ footer{
 
 
 
-
-
-
-
-footer {
-}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -688,4 +675,11 @@ a.resumeButton:active {
 .temporaryClass{
   margin: 0;
   padding:0;
+}
+footer{
+  visibility: hidden;
+}
+
+.contact{
+  visibility: hidden;
 }
