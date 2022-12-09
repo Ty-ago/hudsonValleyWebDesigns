@@ -647,6 +647,11 @@ img.portrait {
   justify-content: center;
   align-items: center;
 }
+.phone, .email{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
 
 #contact{
   color: #006565;
