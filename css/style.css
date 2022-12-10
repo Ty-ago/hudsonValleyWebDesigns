@@ -621,13 +621,14 @@ img.portrait {
 
 
 .contact{
+  color:#006565;
   background: #F0EEEC;
   height: fit-content;
   display: grid;
   justify-content: center;
   align-items: center;
   margin: 25pt;
-  padding-bottom: 25pt;
+  padding-bottom:100pt;
 }
 
 
@@ -653,7 +654,7 @@ img.portrait {
   font-weight: 500;
 }
 
-#contact{
+#contactHeader{
   color: #006565;
 }
 
