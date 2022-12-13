@@ -198,7 +198,7 @@ li a:hover {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  margin-top: 25pt;
+  margin-top: 0pt;
 }
 
 .landingHook {
@@ -207,7 +207,7 @@ li a:hover {
   justify-content: center;
   width: fit-content;
   height: fit-content;
-  margin: 20pt;
+  margin-bottom: 75pt;
 }
 
 h1 {
