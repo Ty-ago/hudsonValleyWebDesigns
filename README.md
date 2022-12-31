@@ -1,88 +1,137 @@
 # Tyisiah Santiago's Portfolio | Hudson Valley Web Designs
 
-Hello and welcome!
-This is my portfolio website's code repository. The intentions of this site are to showcase my skills and knowledge of web development and DOM manipulation to help catalyze career opportunities and customer leads.
+![Build Status](https://img.shields.io/badge/Status-In%20Development-blue)
 
-## Getting Started
+![Stability](https://img.shields.io/badge/Stability-Alpha-yellow)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+***
 
-### Prerequisites
+Hello and welcome to The Hudson Valley Web Designs Repository! If you have any suggestions for improvements or come across any bugs, feel free to create an issue and I'll incorporate it into one of the project's future sprints!
 
-What things you need to install the software and how to install them
+✨Happy Holidays ✨
 
-```
-Give examples
-```
+## Table of Contents
 
-### Installing
+***
 
-A step by step series of examples that tell you how to get a development env running
+1. [General Info](#general-info)
+2. [Current Features](#current-features)
+3. [Future Features](#future-features)
+4. [Technologies](#technologies)
+5. [Design](#design)
+6. [Development](#development)
+7. [Credits](#credits)
+8. [License](#license)
+9. [Contact Info](#contact-info)
 
-Say what the step will be
+***
 
-```
-Give the example
-```
+## _General Info_
 
-And repeat
+Hudsonvalleywebdesigns.com is an implementation of modern web design and development practices aimed at lead generation. The intent of this project is to convey my ability to develop, design, and deploy web precences within today's web trends and in accordance with the WCAG 2.1 AA rating. The Project is a responsive designed static web application, built by hand, and ever morphing as trends and practices evolve along with the expansion of my web portfolio.
 
-```
-until finished
-```
+## _Current Features_
 
-End with an example of getting some data out of the system or using it for a little demo
+- Responsive
 
-## Running the tests
+## _Future Features_
 
-Explain how to run the automated tests for this system
+- A contact form
 
-### Break down into end to end tests
+## _Technologies_
 
-Explain what these tests test and why
+- HTML5
+- CSS3
+- Vanilla Javascript
+- JQuery
+- [Hotjar](https://www.hotjar.com/)
+- [Meta Pixel](https://developers.facebook.com/docs/meta-pixel)
+- [GA4](https://marketingplatform.google.com/about/analytics/)
 
-```
-Give an example
-```
+## _Design_
 
-### And coding style tests
+### _Style Guide_
 
-Explain what these tests test and why
+#### _Fonts_
 
-```
-Give an example
-```
+> 1. Serif
 
-## Deployment
+#### _Colors_
 
-Add additional notes about how to deploy this on a live system
+> 1. #F0EEEC
+> 2. #006565
 
-## Built With
+#### _Imagery_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+![My Self Portrait](/images/headshot1.png "Tyisiah Santiago")
 
-## Contributing
+#### _Tone_
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+> 1. Friendly
+> 2. Pursuasive
+> 3. Human
+> 4. Informative/Educational
+> 5. Helpful
+> 6. Understanding
 
-## Versioning
+### _Screen Shots_
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+#### Hero Section
 
-## Authors
+Desktop:
+![Hero Section](/images/Screen%20Shot%201.png "The Desktop Hero Section")
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+![About Me Section](/images/Screen%20Shot%202.png "The Desktop About Me Section")
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+![Skills Section](/images/Screen%20Shot%203.png "The Desktop Skills Section")
 
-## License
+![Projects Section](/images/Screen%20Shot%204.png "The Desktop Projects Section")
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+![Contact Section](/images/Screen%20Shot%205.png "The Desktop Contact Section")
 
-## Acknowledgments
+Mobile:
+![Hero Section](/images/Mobile%20Screen%20Shot%201.png "The Mobile Hero Section")
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+## _Development_
+
+### Sprint 1
+
+> Inital basic structure and styles established
+
+### Sprint 2
+
+> GA4, Meta Pixel, and hotjar integration
+> styles adjusted and refined to meet more WCAG 2.1 AA requirements
+> addition of media queries.
+
+### Sprint 3
+
+> content adjustments
+
+### Sprint 4
+
+> README file updated
+> Unified button styles
+> Added a new button providing navigation to The Anomaly Project
+
+## _Credits_
+
+### Photographer, Designer, & Developer
+
+> Tyisiah Santiago
+
+## _License_
+
+MIT
+
+## _Contact Info_
+
+[Email](mailto:Tyisiahsantiago12@gmail.com)
+///
+[Website](https://www.hudsonvalleywebdesigns.com)
+
+***
+
+[The Source](https://github.com/Ty-ago/anomaly)
+///
+[MDN (because why not?)](https://developer.mozilla.org)
