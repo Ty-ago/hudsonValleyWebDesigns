@@ -1,3 +1,5 @@
+![My Initials](/images/TS_teal.png "Tyisiah Santiago's Initials")
+
 # Tyisiah Santiago's Portfolio | Hudson Valley Web Designs
 
 ![Build Status](https://img.shields.io/badge/Status-In%20Development-blue)
@@ -61,10 +63,6 @@ Hudsonvalleywebdesigns.com is an implementation of modern web design and develop
 > 1. #F0EEEC
 > 2. #006565
 
-#### _Imagery_
-
-![My Self Portrait](/images/headshot1.png "Tyisiah Santiago")
-
 #### _Tone_
 
 > 1. Friendly
@@ -79,18 +77,20 @@ Hudsonvalleywebdesigns.com is an implementation of modern web design and develop
 #### Hero Section
 
 Desktop:
-![Hero Section](/images/Screen%20Shot%201.png "The Desktop Hero Section")
 
-![About Me Section](/images/Screen%20Shot%202.png "The Desktop About Me Section")
+> ![Hero Section](/images/Screen%20Shot%201.png "The Desktop Hero Section")
 
-![Skills Section](/images/Screen%20Shot%203.png "The Desktop Skills Section")
+> ![About Me Section](/images/Screen%20Shot%202.png "The Desktop About Me Section")
 
-![Projects Section](/images/Screen%20Shot%204.png "The Desktop Projects Section")
+> ![Skills Section](/images/Screen%20Shot%203.png "The Desktop Skills Section")
 
-![Contact Section](/images/Screen%20Shot%205.png "The Desktop Contact Section")
+> ![Projects Section](/images/Screen%20Shot%204.png "The Desktop Projects Section")
+
+> ![Contact Section](/images/Screen%20Shot%205.png "The Desktop Contact Section")
 
 Mobile:
-![Hero Section](/images/Mobile%20Screen%20Shot%201.png "The Mobile Hero Section")
+
+> ![Hero Section](/images/Mobile%20Screen%20Shot%201.png "The Mobile Hero Section")
 
 ## _Development_
 
