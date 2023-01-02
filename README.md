@@ -111,6 +111,9 @@ Mobile:
 ### Sprint 4
 
 > README file updated
+
+### Sprint 5
+
 > Unified button styles
 > Added a new button providing navigation to The Anomaly Project
 
