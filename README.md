@@ -76,21 +76,17 @@ Hudsonvalleywebdesigns.com is an implementation of modern web design and develop
 
 #### Hero Section
 
-Desktop:
+##### Desktop
 
-> ![Hero Section](/images/Screen%20Shot%201.png "The Desktop Hero Section")
+![Hero Section](/images/Screen%20Shot%201.png "The Desktop Hero Section")
+![About Me Section](/images/Screen%20Shot%202.png "The Desktop About Me Section")
+![Skills Section](/images/Screen%20Shot%203.png "The Desktop Skills Section")
+![Projects Section](/images/Screen%20Shot%204.png "The Desktop Projects Section")
+![Contact Section](/images/Screen%20Shot%205.png "The Desktop Contact Section")
 
-> ![About Me Section](/images/Screen%20Shot%202.png "The Desktop About Me Section")
+##### Mobile
 
-> ![Skills Section](/images/Screen%20Shot%203.png "The Desktop Skills Section")
-
-> ![Projects Section](/images/Screen%20Shot%204.png "The Desktop Projects Section")
-
-> ![Contact Section](/images/Screen%20Shot%205.png "The Desktop Contact Section")
-
-Mobile:
-
-> ![Hero Section](/images/Mobile%20Screen%20Shot%201.png "The Mobile Hero Section")
+![Hero Section](/images/Mobile%20Screen%20Shot%201.png "The Mobile Hero Section")
 
 ## _Development_
 
