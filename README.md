@@ -127,7 +127,7 @@ MIT
 
 [Email](mailto:Tyisiahsantiago12@gmail.com)
 ///
-[Website](https://www.hudsonvalleywebdesigns.netlify.app)
+[Website](https://hudsonvalleywebdesigns.netlify.app/)
 
 ***
 
