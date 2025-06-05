@@ -10,7 +10,7 @@
 
 Hello and welcome to The Hudson Valley Web Designs Repository! If you have any suggestions for improvements or come across any bugs, feel free to create an issue and I'll incorporate it into one of the project's future sprints!
 
-✨Happy Holidays ✨
+✨Happy Spring ✨
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Hello and welcome to The Hudson Valley Web Designs Repository! If you have any s
 
 ## _General Info_
 
-Hudsonvalleywebdesigns.com is an implementation of modern web design and development practices aimed at lead generation. The intent of this project is to convey my ability to develop, design, and deploy web precences within today's web trends and in accordance with the WCAG 2.1 AA rating. The Project is a responsive designed static web application, built by hand, and ever morphing as trends and practices evolve along with the expansion of my web portfolio.
+Hudson valley web designs is an implementation of modern web design and development practices aimed at lead generation. The intent of this project is to convey my ability to develop, design, and deploy web precences within today's web trends and in accordance with the WCAG 2.1 AA rating. The Project is a responsive designed static web application, built by hand, and ever morphing as trends and practices evolve along with the expansion of my web portfolio.
 
 ## _Current Features_
 
@@ -127,10 +127,10 @@ MIT
 
 [Email](mailto:Tyisiahsantiago12@gmail.com)
 ///
-[Website](https://www.hudsonvalleywebdesigns.com)
+[Website](https://www.hudsonvalleywebdesigns.netlify.app)
 
 ***
 
-[The Source](https://github.com/Ty-ago/anomaly)
+[The Source](https://github.com/Ty-ago/hudsonValleyWebDesigns)
 ///
 [MDN (because why not?)](https://developer.mozilla.org)
